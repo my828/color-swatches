@@ -5,7 +5,7 @@ import Colors from '../constants/colors'
 const Navbar = () => {
     return (
         <nav style={styles.navbar}>
-            <a className="ml-3" href="#">
+            <a className="ml-3" href="httpw://my828.github.io/helpfulhuman-challenge">
                 <img src={Logo} alt="logo" width="40" height="40" style={styles.logo}/>
             </a>
         </nav>

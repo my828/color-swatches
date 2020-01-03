@@ -43,6 +43,7 @@ function App() {
   // calculates currentCards based on currentPage and cardsPerPage
   const [currentPage, setCurrentPage] = useState(1);
   const [cardsPerPage, setCardsPerPage] = useState(12);
+  const [selectedColor, setSelectedColor] = useState("");
 
   const indexOfLastCard = currentPage * cardsPerPage;
   const indexOfFirstCard = indexOfLastCard - cardsPerPage;
@@ -59,27 +60,34 @@ function App() {
 
   const handleCardClick = color => {
     // generate array of color based on selected color
+    setSelectedColor(color);
     setArrColor(makeArrColor(color));
     setListView(false);
   };
-
+  const handleDetailCardClick = color => {
+    setSelectedColor(color);
+  }
   const handleClear = () => {
     setCurrentPage(1);
     setListView(true);
   };
 
   const generateRandom = () => {
-    let randomColor = RANDOM_COLORS[Math.floor(Math.random() * RANDOM_COLORS.length)];
-    let value = ColorCodes.find(color => color.name === randomColor.toLowerCase());
+    let randomColor =
+      RANDOM_COLORS[Math.floor(Math.random() * RANDOM_COLORS.length)];
+    let value = ColorCodes.find(
+      color => color.name === randomColor.toLowerCase()
+    );
     setArrColor(makeArrColor(value));
+    setSelectedColor(value);
     setListView(false);
-  }
+  };
 
   return (
     <div>
       <Navbar />
       <div style={{ display: "flex" }}>
-        <Sidebar randomColors={RANDOM_COLORS} generateRandom={generateRandom}/>
+        <Sidebar randomColors={RANDOM_COLORS} generateRandom={generateRandom} />
         <div style={{ margin: "60px 0px 40px 40px" }}>
           {listView ? (
             <div>
@@ -98,8 +106,10 @@ function App() {
           ) : (
             <CardDetail
               clear={handleClear}
-              currentPage={currentPage}
+              selectedColor={selectedColor}
+              detailCardClick={handleDetailCardClick}
               arrColor={arrColor}
+              currentPage={currentPage}
             />
           )}
         </div>

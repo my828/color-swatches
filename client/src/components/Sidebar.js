@@ -14,7 +14,6 @@ const Sidebar = ({ randomColors, generateRandom }) => {
       paddingTop: "60px",
     }
   };
-  
   return (
     <div style={styles.container}>
       <div style={styles.content}>
