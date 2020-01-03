@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 const CardList = ({ colors, selectColor, currentPage }) => {
   const styles = {
     cardList: {
-      width: "100%"
+      width: "100%",
     }
   };
   return (
     <div className="card-deck row row-cols-4" style={styles.cardList}>
       {colors.map(color => (
-        <div key={color.value} className="col mb-4">
+        <div key={color.value} className="col mb-4" >
           <Card
             color={color}
             selectColor={selectColor}
