@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/helpfulhuman-challenge/static/css/main.ece8aba4.chunk.css",
+    "main.js": "/helpfulhuman-challenge/static/js/main.476d61ee.chunk.js",
+    "main.js.map": "/helpfulhuman-challenge/static/js/main.476d61ee.chunk.js.map",
+    "runtime-main.js": "/helpfulhuman-challenge/static/js/runtime-main.13b9d8ac.js",
+    "runtime-main.js.map": "/helpfulhuman-challenge/static/js/runtime-main.13b9d8ac.js.map",
+    "static/js/2.ae13858c.chunk.js": "/helpfulhuman-challenge/static/js/2.ae13858c.chunk.js",
+    "static/js/2.ae13858c.chunk.js.map": "/helpfulhuman-challenge/static/js/2.ae13858c.chunk.js.map",
+    "index.html": "/helpfulhuman-challenge/index.html",
+    "precache-manifest.eaeeff7fb1cecc0f1f27160dcdf9c621.js": "/helpfulhuman-challenge/precache-manifest.eaeeff7fb1cecc0f1f27160dcdf9c621.js",
+    "service-worker.js": "/helpfulhuman-challenge/service-worker.js",
+    "static/css/main.ece8aba4.chunk.css.map": "/helpfulhuman-challenge/static/css/main.ece8aba4.chunk.css.map",
+    "static/js/2.ae13858c.chunk.js.LICENSE": "/helpfulhuman-challenge/static/js/2.ae13858c.chunk.js.LICENSE",
+    "static/media/logo-symbol.svg": "/helpfulhuman-challenge/static/media/logo-symbol.358d785a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13b9d8ac.js",
+    "static/js/2.ae13858c.chunk.js",
+    "static/css/main.ece8aba4.chunk.css",
+    "static/js/main.476d61ee.chunk.js"
+  ]
+}
