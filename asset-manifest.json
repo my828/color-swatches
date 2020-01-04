@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/helpfulhuman-challenge/static/css/main.ece8aba4.chunk.css",
-    "main.js": "/helpfulhuman-challenge/static/js/main.3b7c62f8.chunk.js",
-    "main.js.map": "/helpfulhuman-challenge/static/js/main.3b7c62f8.chunk.js.map",
-    "runtime-main.js": "/helpfulhuman-challenge/static/js/runtime-main.13b9d8ac.js",
-    "runtime-main.js.map": "/helpfulhuman-challenge/static/js/runtime-main.13b9d8ac.js.map",
-    "static/js/2.ae13858c.chunk.js": "/helpfulhuman-challenge/static/js/2.ae13858c.chunk.js",
-    "static/js/2.ae13858c.chunk.js.map": "/helpfulhuman-challenge/static/js/2.ae13858c.chunk.js.map",
-    "index.html": "/helpfulhuman-challenge/index.html",
-    "precache-manifest.d3f94a033d95270dbe157b1464c61479.js": "/helpfulhuman-challenge/precache-manifest.d3f94a033d95270dbe157b1464c61479.js",
-    "service-worker.js": "/helpfulhuman-challenge/service-worker.js",
-    "static/css/main.ece8aba4.chunk.css.map": "/helpfulhuman-challenge/static/css/main.ece8aba4.chunk.css.map",
-    "static/js/2.ae13858c.chunk.js.LICENSE": "/helpfulhuman-challenge/static/js/2.ae13858c.chunk.js.LICENSE",
-    "static/media/logo-symbol.svg": "/helpfulhuman-challenge/static/media/logo-symbol.358d785a.svg"
+    "main.css": "/color-swatches/static/css/main.ece8aba4.chunk.css",
+    "main.js": "/color-swatches/static/js/main.6e220c87.chunk.js",
+    "main.js.map": "/color-swatches/static/js/main.6e220c87.chunk.js.map",
+    "runtime-main.js": "/color-swatches/static/js/runtime-main.c9192e02.js",
+    "runtime-main.js.map": "/color-swatches/static/js/runtime-main.c9192e02.js.map",
+    "static/js/2.ae13858c.chunk.js": "/color-swatches/static/js/2.ae13858c.chunk.js",
+    "static/js/2.ae13858c.chunk.js.map": "/color-swatches/static/js/2.ae13858c.chunk.js.map",
+    "index.html": "/color-swatches/index.html",
+    "precache-manifest.7b0cabe6539716ad34e7537c80a64260.js": "/color-swatches/precache-manifest.7b0cabe6539716ad34e7537c80a64260.js",
+    "service-worker.js": "/color-swatches/service-worker.js",
+    "static/css/main.ece8aba4.chunk.css.map": "/color-swatches/static/css/main.ece8aba4.chunk.css.map",
+    "static/js/2.ae13858c.chunk.js.LICENSE": "/color-swatches/static/js/2.ae13858c.chunk.js.LICENSE",
+    "static/media/logo-symbol.svg": "/color-swatches/static/media/logo-symbol.358d785a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.13b9d8ac.js",
+    "static/js/runtime-main.c9192e02.js",
     "static/js/2.ae13858c.chunk.js",
     "static/css/main.ece8aba4.chunk.css",
-    "static/js/main.3b7c62f8.chunk.js"
+    "static/js/main.6e220c87.chunk.js"
   ]
 }
